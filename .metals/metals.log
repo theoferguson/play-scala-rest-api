@@ -1,0 +1,72 @@
+2022.05.02 13:41:52 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/theo/Development/code/projects/play-scala-seed/.metals/lsp.trace.json or /home/theo/.cache/metals/lsp.trace.json[0m
+2022.05.02 13:41:53 INFO  logging to file /home/theo/Development/code/projects/play-scala-seed/.metals/metals.log[0m
+2022.05.02 13:41:53 INFO  Started: Metals version 0.11.5 in workspace '/home/theo/Development/code/projects/play-scala-seed' for client Visual Studio Code 1.66.2.[0m
+2022.05.02 13:41:54 INFO  time: initialize in 1.74s[0m
+2022.05.02 13:41:55 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.05.02 13:41:55 WARN  Build server is not auto-connectable.[0m
+2022.05.02 13:42:26 WARN  no build target for: /home/theo/Development/code/projects/play-scala-seed/app/controllers/HomeController.scala[0m
+2022.05.02 13:42:29 INFO  no build target found for /home/theo/Development/code/projects/play-scala-seed/app/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 3.1.2[0m
+2022.05.02 13:42:31 ERROR text document: file:///home/theo/Development/code/projects/play-scala-seed/app/controllers/HomeController.scala
+java.nio.file.NoSuchFileException: /home/theo/Development/code/projects/play-scala-seed/app/controllers/HomeController.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$2(InteractiveSemanticdbs.scala:90)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:90)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.decorations.SyntheticsDecorationProvider.currentDocument(SyntheticsDecorationProvider.scala:275)
+	at scala.meta.internal.decorations.SyntheticsDecorationProvider.syntheticDecorations(SyntheticsDecorationProvider.scala:163)
+	at scala.meta.internal.decorations.SyntheticsDecorationProvider.$anonfun$publishSynthetics$1(SyntheticsDecorationProvider.scala:65)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2022.05.02 13:42:31 ERROR text document: file:///home/theo/Development/code/projects/play-scala-seed/app/controllers/HomeController.scala
+java.nio.file.NoSuchFileException: /home/theo/Development/code/projects/play-scala-seed/app/controllers/HomeController.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$2(InteractiveSemanticdbs.scala:90)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:90)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1652)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1650)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2022.05.02 13:42:31 INFO  time: code lens generation in 5.04s[0m
+2022.05.02 13:44:25 WARN  no build target for: /home/theo/Development/code/projects/play-scala-seed/app/controllers/TodoListController.scala[0m
+2022.05.02 13:45:08 WARN  no build target for: /home/theo/Development/code/projects/play-scala-seed/app/controllers/TodoListController.scala[0m
